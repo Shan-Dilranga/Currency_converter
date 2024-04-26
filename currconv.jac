@@ -5,7 +5,7 @@
  import:py json;
 
  can convert_currency(init_currency:str, target_currency:str, amount:float){
-    api_key = "mS6FGZMbg27gQvgrOJUlZaooTPKbUYi8";
+    api_key = "YOUR API KEY";
     url = f"https://api.apilayer.com/fixer/convert?to={target_currency}&from={init_currency}&amount={amount}&apikey={api_key}";
 
     try{
